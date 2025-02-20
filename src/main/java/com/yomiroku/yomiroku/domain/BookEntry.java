@@ -1,6 +1,5 @@
 package com.yomiroku.yomiroku.domain;
 
-import java.awt.print.Book;
 import java.time.LocalDate;
 
 public class BookEntry {
@@ -9,8 +8,6 @@ public class BookEntry {
     private int chaptersRead;
     private int volumesRead;
     private LocalDate entryDate;
-
-    private BookEntry(){}
 
     private BookEntry(Builder builder){
         this.name = builder.name;

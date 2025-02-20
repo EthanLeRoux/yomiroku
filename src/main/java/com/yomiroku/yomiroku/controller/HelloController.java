@@ -1,4 +1,4 @@
-package com.yomiroku.yomiroku;
+package com.yomiroku.yomiroku.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

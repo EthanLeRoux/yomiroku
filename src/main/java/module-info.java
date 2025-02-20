@@ -6,4 +6,6 @@ module com.yomiroku.yomiroku {
 
     opens com.yomiroku.yomiroku to javafx.fxml;
     exports com.yomiroku.yomiroku;
+    exports com.yomiroku.yomiroku.controller;
+    opens com.yomiroku.yomiroku.controller to javafx.fxml;
 }

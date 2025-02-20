@@ -1,4 +1,4 @@
-package com.yomiroku.yomiroku;
+package com.yomiroku.yomiroku.controller;
 
 import com.yomiroku.yomiroku.domain.BookEntry;
 import com.yomiroku.yomiroku.factory.BookEntryFactory;
@@ -29,7 +29,7 @@ public class NewBookEntryController {
         int volumesRead = Integer.parseInt(txtVolumesRead.getText());
         LocalDate date = LocalDate.now();
 
-        BookEntry book = BookEntryFactory.newCreateBookEntry(bookName,pagesRead,chaptersRead,volumesRead, date);
+        BookEntry book = BookEntryFactory.createBookEntry(bookName,pagesRead,chaptersRead,volumesRead, date);
 
     }
 }

@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yomiroku.yomiroku.NewBookEntryController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yomiroku.yomiroku.controller.NewBookEntryController">
    <children>
       <Button fx:id="btnSaveEntry" layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#saveBookEntry" text="Save Entry" />
       <Label layoutX="57.0" layoutY="93.0" prefHeight="32.0" prefWidth="60.0" text="Name">

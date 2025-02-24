@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.soft.yomirokualt.controller.NewVideoEntryController">
+   <children>
+      <Button fx:id="btnSaveEntry" layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#saveBookEntry" text="Save Entry" />
+      <Label layoutX="57.0" layoutY="93.0" prefHeight="32.0" prefWidth="60.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="139.0" prefHeight="32.0" prefWidth="111.0" text="Video Url">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="190.0" prefHeight="32.0" prefWidth="134.0" text="Watch Duration">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtVideoName" layoutX="223.0" layoutY="97.0" prefHeight="25.0" prefWidth="335.0" />
+      <TextField fx:id="txtVideoUrl" layoutX="223.0" layoutY="143.0" prefHeight="25.0" prefWidth="335.0" />
+      <TextField fx:id="txtVideoDuration" layoutX="223.0" layoutY="194.0" prefHeight="25.0" prefWidth="71.0" />
+      <Label layoutX="57.0" layoutY="24.0" prefHeight="32.0" prefWidth="152.0" text="New Video Entry">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

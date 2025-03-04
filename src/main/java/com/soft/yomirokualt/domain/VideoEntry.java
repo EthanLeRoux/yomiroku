@@ -4,8 +4,18 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 public class VideoEntry extends Entry implements Serializable {
+    private String name;
+    private LocalDate entryDate;
     private String videoUrl;
     private double videoDuration;
+
+    public String getVideoUrl() {
+        return videoUrl;
+    }
+
+    public double getVideoDuration() {
+        return videoDuration;
+    }
 
     @Override
     public String toString() {
@@ -17,9 +27,19 @@ public class VideoEntry extends Entry implements Serializable {
                 '}';
     }
 
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public LocalDate getEntryDate() {
+        return entryDate;
+    }
+
     public VideoEntry(Builder builder) {
-        super.name = builder.name;
-        super.entryDate = builder.entryDate;
+        name = builder.name;
+        entryDate = builder.entryDate;
         videoUrl = builder.videoUrl;
         videoDuration = builder.videoDuration;
     }

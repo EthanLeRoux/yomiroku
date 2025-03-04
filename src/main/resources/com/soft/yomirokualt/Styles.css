@@ -1,0 +1,8 @@
+.app_button{
+    -fx-border-radius: 10px;
+    -fx-background-color: #56AFE6;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-style: bold;
+    -fx-font-family: "Arial Black"
+}

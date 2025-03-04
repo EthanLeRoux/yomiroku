@@ -49,13 +49,13 @@ public class EntryDashboardController {
                 new PropertyValueFactory<VideoEntry, String>("name")
         );
         tableColumnVideoEntryDuration.setCellValueFactory(
-                new PropertyValueFactory<>("videoDuration")
+                new PropertyValueFactory<VideoEntry,Double>("videoDuration")
         );
         tableColumnVideoEntryUrl.setCellValueFactory(
-                new PropertyValueFactory<>("videoUrl")
+                new PropertyValueFactory<VideoEntry,String>("videoUrl")
         );
         tableColumnVideoEntryDate.setCellValueFactory(
-                new PropertyValueFactory<>("entryDate")
+                new PropertyValueFactory<VideoEntry, LocalDate>("entryDate")
         );
 
         //book entry cellvalue factories

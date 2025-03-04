@@ -1,8 +1,9 @@
 package com.soft.yomirokualt.domain;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class VideoEntry extends Entry {
+public class VideoEntry extends Entry implements Serializable {
     private String videoUrl;
     private double videoDuration;
 

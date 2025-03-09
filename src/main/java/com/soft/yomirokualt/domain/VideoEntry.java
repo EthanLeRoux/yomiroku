@@ -3,7 +3,7 @@ package com.soft.yomirokualt.domain;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-public class VideoEntry extends Entry implements Serializable {
+public class VideoEntry implements Serializable {
     private String name;
     private LocalDate entryDate;
     private String videoUrl;
@@ -27,12 +27,10 @@ public class VideoEntry extends Entry implements Serializable {
                 '}';
     }
 
-    @Override
     public String getName() {
         return name;
     }
 
-    @Override
     public LocalDate getEntryDate() {
         return entryDate;
     }
